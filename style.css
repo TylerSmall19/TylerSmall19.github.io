@@ -49,8 +49,10 @@
 			padding: 5px;
 		}
 		.left-sidebar{
-			width: 17.5%;
+			width: 14.5%;
 			position: fixed;
-			left:0;
-			right:0;
+			left: 0;
+			top: 22.5%;
+			text-align: left;
+			padding-left: 1%; 
 		}
