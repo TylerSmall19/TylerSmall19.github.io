@@ -4,32 +4,52 @@
 	<title>Best in Town (Chicago)</title>
 
 	<style>
-		/* Adds basic style for the webpage */
+
+/* TEXT FORMATTING Elements */
 		h1, h2, h3{
 			color: #b30000;
 		}
-		.container{
-			width: 65%;
-			margin: auto;
-			padding: 5px;
+		p{
+			/* Indents each new <p> 1 em */
+			text-indent: 1em;
 		}
+
+/* HTML Elements */
 		body{
 			background: #333333;
 			color: #DDDDDD;
 			font-family: Helvetica, Arial, Sans-Serif;
 			font-size: 1.05em;
+			/* Sets line spacing of the body */
 			line-height: 145%;
 		}
+
+/* <a> ANCHOR Elements */
 		a, a:visited{
+			/* Keeps visited and unvisted links the same color */
 			color: #CCCCCC;
 		}
-		p{
-			text-indent: 1em;
-		}
 		a img{
-			/* Remove blue border from link images in IE */
+			/* Remove blue border from nested <a> <img> tags in IE */
 			border: none;
 		}
+
+/* FORM Elements */
+		fieldset{
+			width:150px;
+		}
+		legend{
+			color: #b30000;
+		}
+		
+
+/* CSS CLASS DECLARATIONS */
+		.container{
+			width: 65%;
+			margin: auto;
+			padding: 5px;
+		}
+		
 	</style>
 
 </head>
@@ -113,9 +133,33 @@
 
 	<p>Submit your name and email for updates on new eateries and dishes in the Chicagoland area. (Feature not working yet.)</p>
 
-	<form>
 
+	<form>
+		<fieldset>
+			<legend>Sign up for the Mailing List</legend>
+
+			<table>
+			<tr>
+				<td>
+					<label name="name">Name: </label>
+				</td>
+				<td>
+					<input type="text" name="name">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label name="email">Email:</label>
+				</td>
+				<td>
+					<input type="email" name="email">
+				</td>
+			</tr>
+			</table>
+
+		</fieldset>
 	</form>
+
 
 	<h4>
 		<strong><em>Warning:</em></strong> the next section may contain tables, maths, both, or neither.
