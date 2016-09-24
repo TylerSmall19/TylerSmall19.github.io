@@ -41,8 +41,16 @@
 
 
 /* CSS CLASS DECLARATIONS */
+
+	/* DIV CLASSES */
 		.container{
 			width: 65%;
 			margin: auto;
 			padding: 5px;
+		}
+		.left-sidebar{
+			width: 17.5%;
+			position: fixed;
+			left:0;
+			right:0;
 		}
