@@ -39,7 +39,7 @@
 			width:150px;
 		}
 		legend{
-			color: #b30000;
+			color: yellow;
 		}
 		
 
@@ -134,7 +134,7 @@
 	<p>Submit your name and email for updates on new eateries and dishes in the Chicagoland area. (Feature not working yet.)</p>
 
 
-	<form>
+	<form name="email-list" action="https://httpbin.org/post" method="post">
 		<fieldset>
 			<legend>Sign up for the Mailing List</legend>
 
@@ -155,6 +155,15 @@
 					<input type="email" name="email">
 				</td>
 			</tr>
+			<tr>
+				<td>
+					&nbsp;
+				</td>
+				<td colspan="2">
+					<button type="submit">Sign Up</button>
+					<button type="reset">Messed Up</button>
+				</td>
+			</tr>
 			</table>
 
 		</fieldset>
@@ -162,7 +171,7 @@
 
 
 	<h4>
-		<strong><em>Warning:</em></strong> the next section may contain tables, maths, both, or neither.
+		<strong><em>Warning:</em></strong> the news letter may contain tables, maths, both, or neither.
 	</h4>
 
 </section>
