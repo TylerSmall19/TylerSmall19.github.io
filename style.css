@@ -1,0 +1,59 @@
+/* TEXT FORMATTING Elements */
+		h1, h2, h3{
+			color: #b30000;
+		}
+		p{
+			/* Indents each new <p> 1 em */
+			text-indent: 1em;
+		}
+
+
+/* HTML Elements */
+		body{
+			background: #333333;
+			color: #DDDDDD;
+			font-family: Helvetica, Arial, Sans-Serif;
+			font-size: 1.05em;
+			/* Sets line spacing of the text inside body */
+			line-height: 145%;
+		}
+
+
+/* <a> ANCHOR Elements */
+		a, a:visited{
+			/* Keeps visited and unvisted links the same color */
+			color: #CCCCCC;
+		}
+		a img{
+			/* Remove blue border from nested <a> <img> tags in IE */
+			border: none;
+		}
+
+
+/* FORM Elements */
+		fieldset{
+			width:150px;
+		}
+		legend{
+			color: yellow;
+		}
+		
+
+
+/* CSS CLASS DECLARATIONS */
+
+	/* DIV CLASSES */
+		.container{
+			width: 65%;
+			margin: auto;
+			padding: 5px;
+			padding-top: 70px;
+		}
+		.left-sidebar{
+			width: 14.5%;
+			position: fixed;
+			left: 0;
+			top: 22.5%;
+			text-align: left;
+			padding-left: 1%; 
+		}
