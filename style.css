@@ -18,7 +18,7 @@
 		line-height: 145%;
 	}
 
-
+/* ANCHOR Styling */
 	a, a:visited{
 		/* Keeps visited and unvisted links the same color */
 		color: #CCCCCC;
@@ -30,8 +30,22 @@
 		margin: auto;
 	}
 
+/* ASIDE Styling */
+	aside{
+		width: 14.5%;
+		position: fixed;
+		left: 0;
+		top: 22.5%;
+		text-align: left;
+		padding-left: 1%;
+	}
 
-/* FORM Elements */
+	aside div{
+		border: solid 1px gray;
+	}
+
+
+/* FORM Styling */
 	fieldset{
 		width:150px;
 		background-image: url(img/bg-img.png);
@@ -51,18 +65,7 @@
 		padding: 5px;
 		padding-top: 70px;
 	}
-	aside{
-		width: 14.5%;
-		position: fixed;
-		left: 0;
-		top: 22.5%;
-		text-align: left;
-		padding-left: 1%;
-	}
-
-	aside div{
-		border: solid 1px gray;
-	}
+	
 
 /* CSS ID Declarations */
 
