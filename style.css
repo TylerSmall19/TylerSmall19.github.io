@@ -19,10 +19,14 @@
 	}
 
 /* ANCHOR Styling */
-	a, a:visited{
-		/* Keeps visited and unvisted links the same color */
+	a, {
 		color: #CCCCCC;
 	}
+
+	a:visited{
+		color: #f2f2f2;
+	}
+
 	a img{
 		/* Remove blue border from nested <a> <img> tags in IE */
 		border: 0;
