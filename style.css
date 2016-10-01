@@ -1,59 +1,86 @@
 /* TEXT FORMATTING Elements */
-		h1, h2, h3{
-			color: #b30000;
-		}
-		p{
-			/* Indents each new <p> 1 em */
-			text-indent: 1em;
-		}
+	h1, h2, h3{
+		color: #b30000;
+	}
+	p{
+		/* Indents each new <p> 1 em */
+		text-indent: 1em;
+	}
 
 
 /* HTML Elements */
-		body{
-			background: #333333;
-			color: #DDDDDD;
-			font-family: Helvetica, Arial, Sans-Serif;
-			font-size: 1.05em;
-			/* Sets line spacing of the text inside body */
-			line-height: 145%;
-		}
+	body{
+		background: #333333;
+		color: #DDDDDD;
+		font-family: Helvetica, Arial, Sans-Serif;
+		font-size: 1.05em;
+		/* Sets line spacing of the text inside body */
+		line-height: 145%;
+	}
+
+/* ANCHOR Styling */
+	a {
+		color: #CCCCCC;
+	}
+
+	a:visited{
+		color: #f2f2f2;
+	}
+
+	a img{
+		/* Remove blue border from nested <a> <img> tags in IE */
+		border: 0;
+		display: block;
+		margin: auto;
+	}
+
+/* ASIDE Styling */
+	aside{
+		width: 14.5%;
+		position: fixed;
+		left: 0;
+		top: 22.5%;
+		text-align: left;
+		padding-left: 1%;
+	}
+
+	aside div{
+		border: solid 1px gray;
+	}
 
 
-/* <a> ANCHOR Elements */
-		a, a:visited{
-			/* Keeps visited and unvisted links the same color */
-			color: #CCCCCC;
-		}
-		a img{
-			/* Remove blue border from nested <a> <img> tags in IE */
-			border: none;
-		}
-
-
-/* FORM Elements */
-		fieldset{
-			width:150px;
-		}
-		legend{
-			color: yellow;
-		}
+/* FORM Styling */
+	fieldset{
+		width:150px;
+		background-image: url(img/bg-img.png);
+	}
+	legend{
+		color: yellow;
+		text-align: center;
+	}
 		
 
 
 /* CSS CLASS DECLARATIONS */
 
-	/* DIV CLASSES */
-		.container{
-			width: 65%;
-			margin: auto;
-			padding: 5px;
-			padding-top: 70px;
+	.container{
+		width: 65%;
+		margin: auto;
+		padding: 5px;
+		padding-top: 70px;
+	}
+	
+
+/* CSS ID Declarations */
+
+	#mistake-button{
+		color: darkred;
+	}
+
+/* MEDIA QUERIES */
+
+	@media only screen and (max-width: 700px){
+		aside{
+		display: none;
 		}
-		.left-sidebar{
-			width: 14.5%;
-			position: fixed;
-			left: 0;
-			top: 22.5%;
-			text-align: left;
-			padding-left: 1%; 
-		}
+	}
