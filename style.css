@@ -19,7 +19,7 @@
 	}
 
 /* ANCHOR Styling */
-	a, {
+	a {
 		color: #CCCCCC;
 	}
 
@@ -75,4 +75,12 @@
 
 	#mistake-button{
 		color: darkred;
+	}
+
+/* MEDIA QUERIES */
+
+	@media only screen and (max-width: 700px){
+		aside{
+		display: none;
+		}
 	}
